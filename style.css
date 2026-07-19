@@ -453,8 +453,9 @@
                 grid-template-columns: 1fr
             }
             .contact-info {
-                padding: 1rem;
-                font-weight: 400;
+                padding: 0.5rem;
+                font-size: 15px;
+                font-weight: 300;
             }
         }
     

@@ -433,7 +433,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 100%;
+                /* width: 100%; */
                 height: 80vh;
             }
             .navbar {
@@ -451,6 +451,9 @@
             }
             .services-layout {
                 grid-template-columns: 1fr
+            }
+            .contact-info {
+                padding: 1rem;
             }
         }
     

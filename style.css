@@ -51,7 +51,7 @@
         .logo {
             font-size: 1.5rem;
             font-weight: 700;
-            color: #c59f37;
+            color: #dbb64f;
         }
 
         .nav-links {
@@ -437,8 +437,18 @@
                 height: 80vh;
             }
             .navbar {
-                flex-direction: column;
+                /* flex-direction: column;
+                justify-content:first baseline; */
                 gap: 1rem;
+            }
+            .nav-links {
+                gap: 0.9rem;
+            }
+            .nav-links a {
+                font-size: 14px;
+            }
+            .logo {
+                font-size: 1rem;
             }
             .hero-content h1 {
                 font-size: 2.5rem;
